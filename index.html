@@ -82,10 +82,21 @@
                         </nav>
                       </div>
                       <div class="d-print-none">
-			      <a class="btn btn-outline-light btn-lg shadow-sm mt-1 me-3"
-				      href="KV_CV.pdf"
-				      data-aos="fade-right"
-				      data-aos-delay="700">Resume</a></div>
+			      <div class="dropdown">
+				      <button class="btn btn-outline-light btn-lg shadow-sm mt-1 me-3 dropdown-toggle" 
+					      type="button" 
+					      id="cvDropdown" 
+					      data-bs-toggle="dropdown" 
+					      aria-expanded="false"
+					      data-aos="fade-right"
+					      data-aos-delay="700">
+					      Resume
+				      </button>
+				      <ul class="dropdown-menu" aria-labelledby="cvDropdown">
+					      <li><a class="dropdown-item" href="KV_Academic_CV.pdf">Academic CV</a></li>
+					      <li><a class="dropdown-item" href="KV_Industry_CV.pdf">Industry CV</a></li>
+    					</ul>
+  				</div>
                     </div>
                   </div>
                 </div>
